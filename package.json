@@ -1,0 +1,28 @@
+{
+  "name": "auth1-project",
+  "version": "1.0.0",
+  "description": "node backend authentication and sessions",
+  "main": "index.js",
+  "scripts": {
+    "test": "test",
+    "server": "nodemon index.js",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nottolivc/node-auth1-project.git"
+  },
+  "author": "nottolivc",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nottolivc/node-auth1-project/issues"
+  },
+  "homepage": "https://github.com/nottolivc/node-auth1-project#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "express": "^4.17.1",
+    "knex": "^0.20.8",
+    "nodemon": "^2.0.2",
+    "sqlite3": "^4.1.1"
+  }
+}
